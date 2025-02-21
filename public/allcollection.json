@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/8LSz4yqc/1491107.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 2,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/qYMby6bS/28806600.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 3,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/JwTBbhgh/2024122114050561.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 4,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/5gw74WPr/2024122114061652.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 5,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/chH072wZ/2024122114070447.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 6,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/DHZLMQzD/IMG-20241017-130811.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 7,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/BVvnh0YY/IMG-20250127-205214.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 8,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/DftmSkLp/IMG-20250127-204403.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 9,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/qF4Xv1Sg/IMG-20241204-134357.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 10,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/20SvhLPT/SAVE-20250131-153322.jpg",
+    "category": "panjabi",
+    "price": 1200
+  },
+  {
+    "id": 11,
+    "name": "premium panjabi",
+    "description": "this is our most premium panjabi collection ",
+    "image": "https://i.ibb.co.com/MyPnRB4F/IMG-20241204-134854.jpg",
+    "category": "panjabi",
+    "price": 1200
+  }
+]

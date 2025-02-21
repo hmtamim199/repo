@@ -14,6 +14,10 @@ const Navbar = () => {
       </li>
       <li>
         {" "}
+        <Link to="/allcollection"> AllCollection</Link>{" "}
+      </li>
+      <li>
+        {" "}
         <Link to="/order"> Order</Link>{" "}
       </li>
     </>

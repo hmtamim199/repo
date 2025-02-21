@@ -3,6 +3,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import Menu from "../Pages/Menu/Menu/Menu";
 import Order from "../Pages/Order/Order";
+import AllCollection from "../Pages/AllCollectioan/AllCollection/AllCollection";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "order",
         element: <Order></Order>,
+      },
+      {
+        path: "/allcollection",
+        element: <AllCollection></AllCollection>,
       },
     ],
   },
