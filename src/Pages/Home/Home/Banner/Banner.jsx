@@ -2,8 +2,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./Banner.css";
 
-import img1 from "../../../../assets/home/seyam.jpg";
-import img2 from "../../../../assets/home/tamim2.jpg";
+import img1 from "../../../../assets/home/tamim2.jpg";
+import img2 from "../../../../assets/home/seyam.jpg";
 import img3 from "../../../../assets/home/seyam2.jpg";
 import img4 from "../../../../assets/home/tamim.jpg";
 import img5 from "../../../../assets/home/seyam3.jpg";
@@ -11,8 +11,8 @@ import img6 from "../../../../assets/home/owner.jpg";
 
 const Banner = () => {
   return (
-    <div>
-      <Carousel>
+    <div className=" ">
+      <Carousel className="">
         <div>
           <img src={img1} />
         </div>

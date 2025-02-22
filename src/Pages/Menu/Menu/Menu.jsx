@@ -14,7 +14,7 @@ const Menu = () => {
   const panjabi = menu.filter((item) => item.category === "panjabi");
   return (
     <div>
-      <Cover img={coverImg} title="our menu"></Cover>
+      <Cover img={coverImg} title="Our Collection"></Cover>
       <SectionTitle
         subeading="don't miss"
         heading="TODAY'S OFFER"
