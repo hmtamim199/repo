@@ -1,3 +1,7 @@
+const handleAddProduct = async () => {
+  console.log("adding product");
+};
+
 const AddProduct = () => {
   return (
     <div className="bg-[#f4f3f0] p-24 mb-8">
