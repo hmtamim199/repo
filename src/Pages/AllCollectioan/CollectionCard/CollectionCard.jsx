@@ -10,6 +10,9 @@ const CollectionCard = ({ item }) => {
         <p>{description}</p>
         <div className="card-actions">
           <button className="btn btn-success hover:bg-slate-600">
+            View Details
+          </button>
+          <button className="btn btn-success hover:bg-slate-600">
             Buy Now
           </button>
         </div>
