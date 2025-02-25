@@ -4,6 +4,9 @@ const CollectionCard = ({ item }) => {
     <div className="card bg-base-100 w-96 shadow-xl">
       <figure className="px-10 pt-10">
         <img src={image} alt="Shoes" className="rounded-xl" />
+        <p className="absolute top-12 right-12 bg-black text-white px-3 py-1 rounded-lg text-sm">
+          ${price}
+        </p>
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{name}</h2>
