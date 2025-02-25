@@ -1,3 +1,7 @@
+const handleViewDetails = () => {
+  console.log('view details card clicked')
+}
+
 const CollectionCard = ({ item }) => {
   const { id, name, description, price, image } = item;
   return (
@@ -12,7 +16,7 @@ const CollectionCard = ({ item }) => {
         <h2 className="card-title">{name}</h2>
         <p>{description}</p>
         <div className="card-actions">
-          <button className="btn btn-success hover:bg-slate-600">
+          <button onClick={handleViewDetails} className="btn btn-success hover:bg-slate-600">
             View Details
           </button>
           <button className="btn btn-success hover:bg-slate-600">
