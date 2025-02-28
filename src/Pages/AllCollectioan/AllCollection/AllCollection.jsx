@@ -3,7 +3,7 @@ import CollectionCard from "../CollectionCard/CollectionCard";
 
 const AllCollection = () => {
   const [collection, setCollection] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading , setLoading] = useState(TRUE)
 
   useEffect(() => {
     fetch("allcollection.json")
