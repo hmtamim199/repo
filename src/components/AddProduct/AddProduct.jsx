@@ -1,12 +1,33 @@
-const handleAddProduct = async () => {
-  console.log("adding product");
+const handleAddProduct = (event) => {
+  event.preventDefault();
+  const form = event.target;
+
+  const name = form.name.value;
+  const quantity = form.quantity.value;
+  const supplier = form.supplier.value;
+  const taste = form.taste.value;
+  const category = form.category.value;
+  const details = form.details.value;
+  const photo = form.photo.value;
+
+  const newCoffee = {
+    name,
+    quantity,
+    supplier,
+    taste,
+    category,
+    details,
+    photo,
+  };
+
+  console.log(newCoffee);
 };
 
 const AddProduct = () => {
   return (
     <div className="bg-[#f4f3f0] p-24 mb-8">
       <h1 className="font-extrabold text-3xl">add a product</h1>
-      <form>
+      <form onSubmit={handleAddProduct}>
         {/* form row */}
         <div className="flex">
           <div className="md:w-1/2">
