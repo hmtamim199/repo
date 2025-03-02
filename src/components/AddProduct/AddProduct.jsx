@@ -1,3 +1,5 @@
+import Swal from "sweetalert2";
+
 const handleAddProduct = (event) => {
   event.preventDefault();
   const form = event.target;
@@ -5,22 +7,53 @@ const handleAddProduct = (event) => {
   const name = form.name.value;
   const quantity = form.quantity.value;
   const supplier = form.supplier.value;
-  const taste = form.taste.value;
+  const quality = form.quality.value;
   const category = form.category.value;
   const details = form.details.value;
   const photo = form.photo.value;
 
-  const newCoffee = {
+  const newPanjabi = {
     name,
     quantity,
     supplier,
-    taste,
+    quality,
     category,
     details,
     photo,
   };
 
-  console.log(newCoffee);
+  //   fetch("http://localhost:5000/panjabi", {
+  //     method: "POST",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify(newCoffee),
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => console.log(data));
+
+  //   console.log(newCoffee);
+  // };
+
+  fetch("http://localhost:5000/panjabi", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+    },
+    body: JSON.stringify(newPanjabi),
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+      if (data.insertedId) {
+        Swal.fire({
+          title: "success!",
+          text: "user added successfully",
+          icon: "success",
+          confirmButtonText: "Cool",
+        });
+      }
+    });
 };
 
 const AddProduct = () => {
@@ -33,7 +66,7 @@ const AddProduct = () => {
           <div className="md:w-1/2">
             <label className="form-control w-full max-w-xs">
               <div className="label"></div>
-              <span>coffee name</span>
+              <span>panjabi name</span>
               <input
                 name="name"
                 type="text"
@@ -46,7 +79,7 @@ const AddProduct = () => {
           <div className="md:w-1/2">
             <label className="form-control w-full max-w-xs">
               <div className="label"></div>
-              <span>coffee quantity</span>
+              <span>panjabi quantity</span>
               <input
                 name="quantity"
                 type="text"
@@ -75,11 +108,11 @@ const AddProduct = () => {
           <div className="md:w-1/2">
             <label className="form-control w-full max-w-xs">
               <div className="label"></div>
-              <span>taste</span>
+              <span>Quality</span>
               <input
-                name="taste"
+                name="quality"
                 type="text"
-                placeholder="taste"
+                placeholder="quality"
                 className="input input-bordered w-full max-w-xs"
               />
               <div className="label"></div>
