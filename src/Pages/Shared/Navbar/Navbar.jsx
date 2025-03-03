@@ -20,6 +20,14 @@ const Navbar = () => {
         {" "}
         <Link to="/order"> Order</Link>{" "}
       </li>
+      <li>
+        {" "}
+        <Link to="/">
+          <button className="btn">
+            Inbox <div className="badge badge-sm badge-secondary">+99</div>
+          </button>
+        </Link>{" "}
+      </li>
     </>
   );
   return (

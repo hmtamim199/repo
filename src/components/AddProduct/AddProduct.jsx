@@ -22,19 +22,6 @@ const handleAddProduct = (event) => {
     photo,
   };
 
-  //   fetch("http://localhost:5000/panjabi", {
-  //     method: "POST",
-  //     headers: {
-  //       "content-type": "application/json",
-  //     },
-  //     body: JSON.stringify(newCoffee),
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data));
-
-  //   console.log(newCoffee);
-  // };
-
   fetch("http://localhost:5000/panjabi", {
     method: "POST",
     headers: {

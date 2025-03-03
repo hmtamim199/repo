@@ -6,7 +6,7 @@ import Featured from "../Featured/Featured";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Cover></Cover>
       <Banner></Banner>
       <PopularMenu></PopularMenu>
